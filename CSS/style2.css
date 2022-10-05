@@ -1,0 +1,119 @@
+body{
+	padding-top: 50px;
+	z-index: 0px;
+}
+.navbar{
+	background:linear-gradient(to right, rgb(90, 31, 154), rgb(0, 27, 163));
+}
+ol{
+	background: linear-gradient(to right, rgb(24, 31, 154), rgb(0, 27, 163));
+}
+.row-header{
+	margin:0px;
+	padding:0px;
+}
+#whitw{
+    color: floralwhite;
+}
+.row-content{
+	margin:10px;
+	padding:50px 0px;
+	border-bottom:1px ridge;
+	min-height:400px;
+
+}
+.footer{
+	background: linear-gradient(to right, rgb(24, 31, 154), rgb(0, 0, 0));
+	margin:0px auto;
+	padding:20px 0px;
+}
+.jumbotron{
+	padding:70px 30px;
+	margin:0px auto;
+	background: linear-gradient(to right, rgb(24, 31, 154), rgb(0, 0, 0));
+	color:floralwhite;
+}
+.address{
+	font-size:80%;
+	margin:0px;
+	color: #0f0f0f;
+}
+.tab-content{
+	border-left:1px solid #ddd;
+	border-right:1px solid #ddd;
+	border-bottom:1px solid #ddd;
+	padding:20px;
+}
+.footer {
+  background:  linear-gradient(to right, rgb(24, 31, 154), rgb(0, 0, 0));
+  margin: 0px auto;
+  padding: 20px 0px;
+  color: floralwhite; }
+#text{
+    color: floralwhite;
+    font-size: 14px;
+ /*pre-loader*/
+}
+.center {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+  }
+.outer{
+    border-top: 3px solid yellow;
+    border-bottom: 3px solid yellow;
+    border-radius: 100%;
+    padding: 0px;
+    animation: rotate-outer 5s infinite linear;
+}
+.middle{
+    border-left: 3px solid yellow;
+    border-right: 3px solid yellow;
+    border-radius: 100%;
+    padding: 14px;
+    margin: 10px;
+    animation: rotate-middle 3s infinite linear;
+}
+.inner{
+    border-top: 1px solid yellow;
+    border-bottom: 1px solid yellow;
+    border-radius: 100%;
+    padding: 25px;
+    margin: 0px;
+    animation: rotate-inner 2s infinite linear;
+}
+.text{
+    width: 100px;
+    height: 80px;
+    text-align: center;
+}
+#loading{
+    color: yellow;
+    font-family: robotic;
+    text-align: center;
+    text-shadow: 4px 3px silver;
+    font-size: 25px;
+}
+@keyframes rotate-outer {
+    0%{
+        transform: rotate(360deg);
+    }
+}
+@keyframes rotate-middle {
+    from{
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+@keyframes rotate-inner {
+    0%{
+        transform: rotate(360deg);
+    }
+}
